@@ -1,34 +1,38 @@
 module.exports={
     main_screen:{
-        marginTop:30,
+        marginTop:10,
         display:"flex",
+        flex:1,
         flexDirection:"column",
         backgroundColor:"white",
         alignItems:"center",
-        width:"100%",
-        height:"100%",
+        width:"60%",
+        height:"30%",
 
     },
     display:{
         elevation:10,
-        width:"94%",
+        width:"70%",
         backgroundColor:"white",
         borderRadius:10,
         display:"flex",
-        marginBottom:10,
-        padding:10,
+        marginBottom:3,
+        padding:3,
 
     },
 
     display_text:{
-        fontSize:100,
+        fontSize:30,
         textAlign:"right",
 
     },
     keypad:{
-        width:"100%",
-        height:"70%",
+        width:"80%",
+        height:"60%",
         display:"flex",
+        marginBottom:2,
+        marginTop:2,
+        padding:2,
         // flexDirection:"row",
     },
 
@@ -39,11 +43,11 @@ module.exports={
         width:"100%",
         justifyContent:"space-between",
         alignItems:"center",
-        padding:30,
+        padding:3,
     },
     btn_outer:{
-        width:90,
-        height:90,
+        width:30,
+        height:30,
         backgroundColor:"white",
         elevation:10,
         overflow:"hidden",
@@ -54,13 +58,13 @@ module.exports={
     bg_button:{
         backgroundColor:"white",
         color:"black",
-        fontSize:60,
+        fontSize:20,
         
     },
 
     btn1_outer:{
-        width:90,
-        height:90,
+        width:30,
+        height:30,
         backgroundColor:"#ff5757", 
         borderRadius:90,
         elevation:10,
@@ -72,12 +76,12 @@ module.exports={
     bg1_button:{
         backgroundColor:"#ff5757",
         color:"white",
-        fontSize:60,
+        fontSize:20,
         fontWeight:"bold",
     },
     btn2_outer:{
-        width:90,
-        height:90,
+        width:30,
+        height:30,
         backgroundColor:"grey", 
         borderRadius:90,
         elevation:10,
@@ -88,7 +92,7 @@ module.exports={
     bg2_button:{
         backgroundColor:"grey",
         color:"white",
-        fontSize:60,
+        fontSize:20,
         fontWeight:"bold",
     },
 
